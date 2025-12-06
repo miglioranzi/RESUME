@@ -1,13 +1,73 @@
-*{margin: auto;
-    font-size: large;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- color:black;
- background-color: rgb(250, 245, 237);
- 
-  
+*{background-color: rgb(252, 250, 247);}
+#header{
+    background-color:rgb(253, 215, 2);
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+    
 }
 
+#nameAndTitle{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    background-color: rgb(252, 250, 247);
+    color: rgb(3, 5, 133);
+    margin-bottom: 40px;
+}
 
-#logo2{
-    margin-left: 200px;
+.card h3 {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color:rgb(3, 5, 133);
+}
+
+.card{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 20px
+
+}
+
+#logos{
+     display: grid;
+    grid-template-columns:50% 50% ;
+    
+}
+.logo{
+    width: 30px;    
+}
+
+#contact{
+    list-style-type: none;
+}
+#contact i{
+  width: 30px;
+  color:rgb(253, 215, 2)
+  
+}
+#container{
+    display: grid;
+    grid-template-columns:30% auto ;
+    grid-column-gap: 20px ;
+
+
+}
+#sidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#content{
+    font-size: 25px;
 }

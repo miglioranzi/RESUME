@@ -1,74 +1,82 @@
 <!DOCTYPE html>
 <html lang="eng">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b5917a6ba.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>RESUME</title>
 </head>
 
-<div id="A1" <p style= "text-align:center;"></p>
-
-    <!--HEAD-->
-
-    <br><br><b><h1 id="Nome">WANDERSON PEREIRA MILHORANCE</h1></b>
-    <h2 id="email"> E-mail: milhorance.dev@gmail.com <br>
+<body>
+<div id="header">
     
-    </p>
+    <div id="nameAndTitle">
+        <h1 >WANDERSON PEREIRA MILHORANCE</h1></b>
+       
     
-</div>
-</head>
+    <div id="logos">
 
-<body><br>
-<div id="A2" <p style= "text-align:center;" ></p> 
-    <h1 id="t1">My Links:</h1>
+        <div id="l1"> 
         <a target="_blank"  href="https://www.linkedin.com/in/wanderson-pereira-milhorance-228964253/">   
-        <img id="logo1" src="img/lkd.png" alt="">
-        </a>
+        <img class="logo" src="img/lkd.png" alt="">
+        </a><br>
+        </div>
 
+        <div id="l2">    
         <a target="_blank" href="https://github.com/miglioranzi">
-        <img id="logo2" src="img/gth.png" alt="Deu Ruim">
+        <img class="logo" src="img/gth.png" alt="Deu Ruim">
         </a>
-
- <!--Boddy-->
+            </div>
+        </div>
+    </div>
+</div>
     
-</div>
-<div <p style= "text-align:center;"></p>
- <br><br><h1 > PROFESSIONAL OBJETIVE:</h1>
-  <h2 > Brazilian attorney transitioning into the technology field and seeking to work as a Junior Front-End, Back-End, or Full Stack Developer. My legal background has strengthened essential skills for software development, such as analytical thinking, complex problem-solving, structured reasoning, and attention to detail.</h2>
-    <br><br><h3>TECHNICAL SKILLS</h3>
-    <h3>Front-End: HTML, CSS, JavaScript, Back-End, Java, Python
-    <br>Tools: Git, GitHub
-    <br>Core Concepts: Programming logic, OOP, Code Versioning, API
-</h3>
-<br><br><h3>PROJECTS</h3>
-<h3>DNC Landing Page - HTML5, CSS3, Google Sheets, JavaScrip, GitHub, Netlify <br> 
-    PurpleHouse Saquarema Website - HTML5, CSS3, Google Sheets, JavaScrip, GitHub, Netlify <br>
-    ILoveSepetiba Website - In Progress 
-</h3>
-<br><br><h3>EDUCATION</h3>
-<h3>Software Engeneering - Leonardo Da Vinci University - In Progress</h3>
-<h3>Software Engeneering - DCN Cursos - In Progress</h3>
-<br><br><h3> PROFESSIONAL EXPERIENCE - Career Transition</h3>
-<h3>Currently working independently on developing a website for a non-profit organization focused on solid waste recycling. I am also building a website for a vacation rental property company. Additionally, I am awaiting approval to start creating a website for a children’s shelter supporting youth in vulnerable situations.
-<br><br><h3>LANGUAGES</h3>
-<h3>English - Advanced <br>Portuguese - Fluent <br>Spanish - Basic</h3>
-<br><br><h3>CORE COMPETENCIES</h3>
-<h3>Logical Reasoning, Problem-Solving, Documentation, Fast Learning</h3>
-<br><br><h3>ADDITIONAL INFORMATION</h3>
-<h3>Available for Remote, Hybrid, or On-Site Work</h3> <br><br><br><br>
-</div>
+<div id="container">
+       <div id="sidebar">
+        <div class="card">
+            <h3>Contact:</h3>
+            <ul id="contact">
+                <li><i class="fa-solid fa-envelope"></i>milhorance.dev@gmail.com</li>
+                <li><i class="fa-solid fa-mobile-screen-button"></i>+55 21 97485-6669</li>
+                <li><i class="fa-solid fa-location-dot"></i>Rio de Janeiro</li>
+            </ul>
+        </div>
 
-<script src="index.js"></script>    
-<div>
-
-    
-</div>
+        <div class="card">
+            <h3>Skils</h3>
+            <ul>
+                <li>Front-End: HTML, CSS, JavaScript, Back-End, Java, Python</li>
+                <li>Tools: Git, GitHub, Google Sheats, Netlify</li>
+                <li>Core Concepts: Programming logic, OOP, Code Versioning, API </li>
+                            
+            </ul>
+        </div>
+        <div class="card">
+                <h3>Education</h3>
+                <ul>
+                    <li>Software Engeneering - Leonardo Da Vinci University - In Progress</li>
+                    <li>Software Engeneering - DCN Cursos - In Progress</li>
+                </ul>
+        </div>
+       </div>
+        <div id="content">
+            <div class="card">
+                <h3>About me:</h3>
+                 <p>
+                    Brazilian attorney transitioning into the technology field and seeking to work as a Junior Front-End, Back-End, or Full Stack Developer. My legal background has strengthened essential skills for software development, such as analytical thinking, complex problem-solving, structured reasoning, and attention to detail.
+                </p>
+            </div>
+            <div class ="card">
+              <h3>Projects</h3>
+                 <p>
+                      DNC Landing Page - HTML5, CSS3, Google Sheets, JavaScrip, GitHub, Netlify <br>
+                        PurpleHouse Saquarema Website - HTML5, CSS3, Google Sheets, JavaScrip, GitHub, Netlify <br>
+                        ILoveSepetiba Website - In Progress
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
-
-</html>
+</html>    
